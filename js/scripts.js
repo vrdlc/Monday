@@ -4,9 +4,9 @@ $(document).ready(function() {
   //   alert("This is the body.");
   // });
 
-  $("h1").click(function() {
-    alert("This is a header.");
-  });
+  // $("h1").click(function() {
+  //   alert("This is a header.");
+  // });
 
 //   $("p"). click(function() {
 //   alert("This is a paragraph.");
@@ -29,7 +29,7 @@ $(document).ready(function() {
 
   $("#clickme").click(function() {
     $("#walrus").fadeIn("slow", function(){
-
+    $("#yay").slideDown();
     });
   });
 
