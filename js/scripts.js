@@ -8,9 +8,9 @@ $(document).ready(function() {
     alert("This is a header.");
   });
 
-  $("p"). click(function() {
-  alert("This is a paragraph.");
-});
+//   $("p"). click(function() {
+//   alert("This is a paragraph.");
+// });
 
   $("img").dblclick(function() {
     alert("This is an image.");
@@ -19,8 +19,9 @@ $(document).ready(function() {
   $("h2").click(function() {
     alert("This is a smaller header.");
   });
-  $("ul").click(function() {
-    alert("This list is sarcastic.");
+
+  $(".clickable").click(function(){
+    $(".list-hidden").toggle();
   });
 
 });
