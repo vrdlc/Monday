@@ -10,3 +10,7 @@ img {
 .list-hidden {
   display: none;
 }
+
+#walrus {
+  display: none;
+}

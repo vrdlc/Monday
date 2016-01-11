@@ -21,10 +21,16 @@ $(document).ready(function() {
   });
 
   $(".clickable-food").click(function(){
-    $(".food-hidden").toggle();
+    $(".food-hidden").fadeToggle();
   });
   $(".clickable").click(function(){
-    $(".list-hidden").toggle();
+    $(".list-hidden").slideToggle();
+  });
+
+  $("#clickme").click(function() {
+    $("#walrus").fadeIn("slow", function(){
+
+    });
   });
 
 });
