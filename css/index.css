@@ -3,6 +3,10 @@ img {
   width: auto;
 }
 
+.food-hidden {
+  display: none;
+}
+
 .list-hidden {
   display: none;
 }

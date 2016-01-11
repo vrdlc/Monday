@@ -20,6 +20,9 @@ $(document).ready(function() {
     alert("This is a smaller header.");
   });
 
+  $(".clickable-food").click(function(){
+    $(".food-hidden").toggle();
+  });
   $(".clickable").click(function(){
     $(".list-hidden").toggle();
   });
