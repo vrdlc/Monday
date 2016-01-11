@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
+  // $("body").hover(function() {
+  //   alert("This is the body.");
+  // });
+
   $("h1").click(function() {
     alert("This is a header.");
   });
@@ -7,7 +12,15 @@ $(document).ready(function() {
   alert("This is a paragraph.");
 });
 
-  $("img").click(function() {
+  $("img").dblclick(function() {
     alert("This is an image.");
   });
+
+  $("h2").click(function() {
+    alert("This is a smaller header.");
+  });
+  $("ul").click(function() {
+    alert("This list is sarcastic.");
+  });
+
 });
